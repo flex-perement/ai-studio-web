@@ -1,0 +1,20 @@
+{
+  "name": "AI Studio",
+  "logo": {
+    "dark": "/logo-dark.svg",
+    "light": "/logo.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#7c3aed",
+    "light": "#a78bfa",
+    "dark": "#4c1d95"
+  },
+  "topAnchor": "Documentation",
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api"
+    }
+  ]
+}

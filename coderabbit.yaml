@@ -1,0 +1,33 @@
+# CodeRabbit AI Code Review Configuration
+language: ru
+
+reviews:
+  profile:
+    name: ai-studio
+    review_status: all
+    high_level_summary: true
+  auto_review:
+    enabled: true
+    ignore_title_regex: ^(chore|docs|test): 
+    drafts: false
+
+chat:
+  auto_reply: true
+
+bugs:
+  enabled: true
+
+code_style:
+  enabled: true
+  languages:
+    - html
+    - css
+    - javascript
+
+highlighting:
+  enabled: true
+
+metrics:
+  complexity: enabled
+  security: enabled
+  suggestions: enabled
